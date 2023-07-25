@@ -2,6 +2,7 @@
 
 # Database Structure
 ![Image Alt Text](Database.png)
+<br>
 Description** : 
 The database is divided into 3 parts
 1.Movie
