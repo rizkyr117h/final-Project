@@ -4,10 +4,10 @@
 ![Image Alt Text](Database.png)
 <br>
 Description** : 
-The database is divided into 3 parts
-1.Movie
-2.Product
-3.Comment
+The database is divided into 3 parts<br>
+1.Movie<br>
+2.Product<br>
+3.Comment<br>
 
 The relationship between the Product database to the Movie database is many to one.
 The relationship between the Comment database to the movie database is many to one. 
