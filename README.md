@@ -9,7 +9,7 @@ The database is divided into 3 parts<br>
 2.Products<br>
 3.Comments<br>
 
-The relationship between the Products database to the Movies database is many to one.
+The relationship between the Products database to the Movies database is many to one.<br>
 The relationship between the Comments database to the movies database is many to one. 
 
 # API Structure
