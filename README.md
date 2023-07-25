@@ -5,12 +5,12 @@
 <br>
 Description** : 
 The database is divided into 3 parts<br>
-1.Movie<br>
-2.Product<br>
-3.Comment<br>
+1.Videos<br>
+2.Products<br>
+3.Comments<br>
 
-The relationship between the Product database to the Movie database is many to one.
-The relationship between the Comment database to the movie database is many to one. 
+The relationship between the Products database to the Movies database is many to one.
+The relationship between the Comments database to the movies database is many to one. 
 
 # API Structure
 
