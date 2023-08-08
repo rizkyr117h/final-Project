@@ -6,43 +6,43 @@ const dbName = "videoApp";
 const videosData = [
   {
     videoID: "video001",
-    thumbnailURL: "https://example.com/thumbnail001.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=GI_kqU40H8g",
   },
   {
     videoID: "video002",
-    thumbnailURL: "https://example.com/thumbnail002.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=xHRH5oOv81w",
   },
   {
     videoID: "video003",
-    thumbnailURL: "https://example.com/thumbnail003.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=XLJFQaYFm0g",
   },
   {
     videoID: "video004",
-    thumbnailURL: "https://example.com/thumbnail004.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=oUe9nv7B22Y",
   },
   {
     videoID: "video005",
-    thumbnailURL: "https://example.com/thumbnail005.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=UJArqwQ0CyI",
   },
   {
     videoID: "video006",
-    thumbnailURL: "https://example.com/thumbnail006.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=CMjSLn03kbs",
   },
   {
     videoID: "video007",
-    thumbnailURL: "https://example.com/thumbnail007.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=Gph5myGUPkw",
   },
   {
     videoID: "video008",
-    thumbnailURL: "https://example.com/thumbnail008.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=FkbuKr1GKsM",
   },
   {
     videoID: "video009",
-    thumbnailURL: "https://example.com/thumbnail009.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=V-ziUYkxUr0",
   },
   {
     videoID: "video010",
-    thumbnailURL: "https://example.com/thumbnail010.jpg",
+    thumbnailURL: "https://www.youtube.com/watch?v=Zu7p_Agl1iA",
   },
 ];
 
