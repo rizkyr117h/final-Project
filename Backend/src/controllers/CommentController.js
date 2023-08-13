@@ -5,7 +5,7 @@ class CommentController {
     const { videoID } = req.params;
     try {
       const comments = await commentUseCase.getCommentsByVideoID(videoID);
-      res.json(comments);
+      res.status(200).json(comments);
     } catch (error) {
       res.status(500).json({ error: 'Internal server error' });
     }
@@ -19,7 +19,7 @@ class CommentController {
 
     try {
       await commentUseCase.createComment(username, comment, videoID);
-      res.json({ success: true });
+      res.status(200).json({ success: true });
     } catch (error) {
       res.status(400).json({ status: 'fail', error: 'Internal server error' });
     }

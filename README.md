@@ -27,12 +27,28 @@ The relationship between the Comments database to the movies database is many to
 
 - **Method**: GET
 - **Endpoint**: `/video`
-- Description**: Get a list of all videos along with URL thumbnail information.
+- Description**: Get a list of all videos.
 
 #### Successful Response
 
 - **Status**: 200 OK
 - **Body**: Array of objects, each object contains video information.
+
+#### Failed Response
+
+- **Status**: 500 Internal Server Error
+- **Body**: JSON object with key "error" containing an error message.
+
+### Get All Videos
+
+- **Method**: GET
+- **Endpoint**: `/video/:videoID`
+- Description**: Get the spesific video detail.
+
+#### Successful Response
+
+- **Status**: 200 OK
+- **Body**: Array of objects, object contains video property object..
 
 #### Failed Response
 
@@ -124,7 +140,16 @@ Content-Type: application/json
 
 #How To Run The Aplication
 ```
-npm install // for install all depedencies
+1.Backend
+cd Backend // change directory to Backend
+yarn add // for install all depedencies
 node dummy_db.js // for create database and add dummy data to database
-nodemon start // run the application
+yarn start // run Backend Serve
+
+2.Frontend
+cd Frontend // change directory to Backend
+arn add // for install all depedencies
+yarn dev // run Application
+
+On Browser run http://localhost:5173/
 ```

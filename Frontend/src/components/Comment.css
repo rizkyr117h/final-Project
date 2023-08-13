@@ -1,0 +1,29 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    animation: animate-in 0.3s ease-in-out forwards;
+    background-color: #7c17e8;
+}
+
+.username {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.comment-text {
+    font-size: 0.9rem;
+    margin: 0 0 10px 0;
+}
+
+.timestamp {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin: 0;
+}
